@@ -1,0 +1,75 @@
+/*  LE CSS EN  DESSOUS CONCERNE LA BARRE DE RECHERCHE ET ET LES AUTRES INFOS DEDANS*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+    font-family: Raleway;
+}
+
+li a {
+    display: block;
+    font-family: Raleway;
+    padding: 14px 16px;
+}
+
+.test {
+    font-family: Raleway;
+    float: left;
+}
+
+
+/*IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII  LIGNE DE SEPARATION IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII*/
+
+
+/*  LE CSS EN DESSOUS CONCERNE L'AFFICHAGE DES LIEUX AVEC LES IMAGES*/
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    border-radius: 15px;
+    margin-right: 700px;
+}
+
+.info_left {
+    float: right;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.images_left {
+    background-color: lightgray;
+}
+
+.right_side {
+    float: right;
+}
+
+.lpp {
+    float: right;
+    background-color: lightgray;
+    margin-right: 200px;
+    border-radius: 15px;
+}
+
+.activites {
+    display: inline-flex;
+    background-color: lightgray;
+    border-radius: 15px;
+    margin-right: 1300px;
+}
+
+footer {
+    display: inline-flex;
+    background-color: lightgray;
+    border-radius: 15px;
+    margin-right: 300px;
+}
